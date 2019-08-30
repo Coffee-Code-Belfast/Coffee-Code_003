@@ -1,4 +1,5 @@
-# Coffee&amp;Code#003: Python and Flask (author Ciara Magee)
+# Coffee&amp;Code#003: Python and Flask 
+### Created by Ciara Magee
 
 # Today’s Challenge:
 
@@ -11,7 +12,7 @@ If you’ve already some programming experience, please feel free to jump ahead 
 Remember: If you get stuck at any time, please look out for Ciara, Caroline or Dave.
 
 
-Set Up: 
+## Set Up: 
 
 Repl.it is an online read–eval–print loop, which gives a programmer an integrated development environment. It allows you to code, compile and run code in lots of programming languages. It even has courses to help you learn!
 
@@ -23,7 +24,7 @@ You can create a user account for Repl.it using your email or sign in with Githu
 
 We’ll start with the the basics of Python and some exercises.
 
-Python Version
+### Python Version
 When you are learning Python you may notice people talking about what version of python they are using: Python 2 or Python 3. For this session, we will be using Python 3. Here is a post explaining the history between the versions, the differences between them as well as talking about which version you should learn if you are starting out: https://learntocodewith.me/programming/python/python-2-vs-python-3/ 
 
 You can find out what version of python you are using by importing ‘sys’ and printing ‘sys.version’. Try it out for yourself - it should output something like 3.6.7 which is a version of Python 3.
@@ -57,7 +58,7 @@ print("Hello " + name)
 print( name + " you are " + str(age) + " years old")
 
 
-Quick Maths
+### Quick Maths
 
 Python can carry out calculations and uses the standard order of operations (PEMDAS: Parenthesis, Exponents, Multiplication, Division, Subtraction)
 Mathematical Operators
@@ -128,10 +129,7 @@ else:
 
 
 
-
-
-
-More about conditionals: https://realpython.com/python-conditional-statements/ 
+### More about conditionals: https://realpython.com/python-conditional-statements/ 
 
 Iteration
 for statement
@@ -168,7 +166,7 @@ https://www.practicepython.org/
 Repl.it also has a Python course that you can try as well: https://repl.it/community 
 
 
-Flask App:
+### Flask App:
 
 You can try the following tutorial to build a simple Flask app. You will be able to use your Repl.it environment for this.
 
