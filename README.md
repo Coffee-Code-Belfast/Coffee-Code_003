@@ -1,6 +1,6 @@
 # Coffee&amp;Code#003: Python and Flask 
 ### Created by Ciara Magee
-### Guest mentor David Cutting
+### Guest mentor: David Cutting
 
 # Today’s Challenge:
 
