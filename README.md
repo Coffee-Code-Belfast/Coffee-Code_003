@@ -30,17 +30,16 @@ When you are learning Python you may notice people talking about what version of
 
 You can find out what version of python you are using by importing ‘sys’ and printing ‘sys.version’. Try it out for yourself - it should output something like 3.6.7 which is a version of Python 3.
 
-
-```import sys
-print(sys.version)```
+import sys
+print(sys.version)
 
 Keywords in Python
 Python has a number keywords. In a programming language, a key word belongs to the language and cannot be used to name any other identifier.
 
 You can find out what the keyword of Python by importing ‘keywords’ and printing the key word list.
 
-```import keyword
-print(keyword.kwlist)```
+import keyword
+print(keyword.kwlist)
 
 You can find out more about what each keyword is used for here: https://www.programiz.com/python-programming/keyword-list 
 
