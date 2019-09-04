@@ -6,7 +6,7 @@
 
 We will be discovering Python and practicing with exercises. if you have time, there is also an option to create a simple web app using a Flask server.
 
-If you are are completely new to any programming language, check out this post on dev.to by Ali Spittel: A Complete Beginner's Guide to Programming. There are also more resources to read at the end of this doc, which you can do here or in your own time! If you’d like to go ahead and try writing some Python code, either by pairing up with someone or on your own, please go to the Set Up section below then on to Python Exercises on the next page.
+If you are are completely new to any programming language, check out this [post](https://dev.to/aspittel/a-complete-beginner-s-guide-to-programming-2ni4) by Ali Spittel: A Complete Beginner's Guide to Programming. There are also more resources to read at the end of this doc, which you can do here or in your own time! If you’d like to go ahead and try writing some Python code, either by pairing up with someone or on your own, please go to the Set Up section below then on to Python Exercises on the next page.
 
 If you’ve already some programming experience, please feel free to jump ahead to creating the Flask app.
 
@@ -15,7 +15,7 @@ Remember: If you get stuck at any time, please look out for Ciara, Caroline or D
 
 ## Set Up: 
 
-Repl.it is an online read–eval–print loop, which gives a programmer an integrated development environment. It allows you to code, compile and run code in lots of programming languages. It even has courses to help you learn!
+[Repl.it](https://repl.it/) is an online read–eval–print loop, which gives a programmer an integrated development environment. It allows you to code, compile and run code in lots of programming languages. It even has courses to help you learn!
 
 You can create a user account for Repl.it using your email or sign in with Github if you have a Github account. Once you are logged in, go to the languages section and select Python from the Popular section and a new Python project will be created for you.
 
@@ -31,16 +31,16 @@ When you are learning Python you may notice people talking about what version of
 You can find out what version of python you are using by importing ‘sys’ and printing ‘sys.version’. Try it out for yourself - it should output something like 3.6.7 which is a version of Python 3.
 
 
-import sys
-print(sys.version)
+```import sys
+print(sys.version)```
 
 Keywords in Python
 Python has a number keywords. In a programming language, a key word belongs to the language and cannot be used to name any other identifier.
 
 You can find out what the keyword of Python by importing ‘keywords’ and printing the key word list.
 
-import keyword
-print(keyword.kwlist)
+```import keyword
+print(keyword.kwlist)```
 
 You can find out more about what each keyword is used for here: https://www.programiz.com/python-programming/keyword-list 
 
@@ -50,7 +50,7 @@ You can find out more about what each keyword is used for here: https://www.prog
 
 Try entering the following into your Repl.it environment, in the ‘main.py’ section on left, then the ‘run’ button to see the output on the Python console to the right.
 
-1.print("Hello World!")
+1. print("Hello World!")
 2. print("Enter your name:")
 name = input()
 print("Hello " + name)                                                                                                        
@@ -62,7 +62,9 @@ print( name + " you are " + str(age) + " years old")
 ### Quick Maths
 
 Python can carry out calculations and uses the standard order of operations (PEMDAS: Parenthesis, Exponents, Multiplication, Division, Subtraction)
-Mathematical Operators
+
+### Mathematical Operators
+
 Addition: +
 Subtraction: -
 Multiplication: *
@@ -79,7 +81,7 @@ the remainder when 24824 is divided by 17
 ## Variables and Data Types
 A variable is a like box with something in it. Boxes can be different sizes and store different things. A data type is used to say what type of data is in the box.
 
-Declaring Variables in Python
+## Declaring Variables in Python
 Variables let you assign a value to a name, which can be used to refer to the value later in the program.
 Python is dynamically typed. This means that you do not have to declare the type of each variable. In statically languages like C# and Java, you have to explicitly declare variables using their data type.
 Declare a variable by giving it a name and assign it a value using the equals sign '=':
